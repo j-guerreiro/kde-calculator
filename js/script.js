@@ -4,7 +4,7 @@ function adicionarEventos() {
     const display = document.querySelector( ".conteiner-display");
     const botao = document.querySelector(".conteiner-botao");
 
-    function mostrarValores ( event ) {
+    const mostrarValores = (event) => {
 
         const valor = event.target;
         const valorBotao = valor.textContent;
@@ -12,13 +12,12 @@ function adicionarEventos() {
         display.textContent = valorBotao;
 
         valorDisplay == 0 ? display.textContent = valorBotao : display.textContent = valorDisplay + valorBotao;
-
+        
     };
 
-    botoesTeclado.addEventListener( 'click', mostrarValores );
-
+    botoesTeclado.addEventListener('click', mostrarValores );
 }
-window.addEventListener( 'load', adicionarEventos );
+window.addEventListener('load', adicionarEventos );
 
 /*
 
