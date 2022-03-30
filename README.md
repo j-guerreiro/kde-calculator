@@ -37,7 +37,7 @@ Estou utilizando o editor de código VSCODE-Insiders, sistema operacional GNU Ar
 
 #
 
-## Imagens layout/design do website
+## Imagens layout/design do App
 #
 
 
