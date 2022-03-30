@@ -14,6 +14,9 @@ function adicionarEventos() {
     display.textContent = valorBotao;
     valorDisplay == 0 ? display.textContent = valorBotao : display.textContent = valorDisplay + valorBotao;
 
+    if (valorBotao === '+') {
+
+    }
   };
 
 
@@ -24,19 +27,21 @@ function adicionarEventos() {
 }
 window.addEventListener('load', adicionarEventos);
 
-// CLEAR
+// (=) IGUAL
+const mostrarResultado = () => {
 
+}
+
+// (C) CLEAR
 const limparVisor = () => {
   //limpa o visor
   window.location.reload();
 }
-
-
-// +
-const somar = (num1, num2) => {
+// (+) SOMA
+const somarNumeros = (num1, num2) => {
   //recebe dois valores, subtrai o primeiro pelo segundo e retorna o resultado
-  var resultado = num1 + num2;
-  return resultado;
+  let resultado = num1 + num2;
+
 }
 
 /*
