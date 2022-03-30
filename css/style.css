@@ -108,4 +108,11 @@ body {
     bottom: 10vh;
 }
 
-
+.info {
+  color: rgba(0, 255, 0, 0.767);
+  margin-top: 10%;
+  padding: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
